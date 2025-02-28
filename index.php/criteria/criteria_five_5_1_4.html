@@ -824,36 +824,38 @@
                                                                             </div> -->
 
 
-                                                                            <div style="width: 100%; text-align: center; padding: 50px; background-color: #f4f4f9; position: relative;">
-
-                                                                                <div style="font-size: 24px; font-weight: bold; color: #555; text-transform: uppercase; position: relative; animation: blink 1.5s infinite;">
-                                                                                    Under Update
-                                                                                </div>
-
-                                                                                <div style="font-size: 16px; color: #888; margin-top: 10px;">
-                                                                                    Please check back later for updates!
-                                                                                </div>
-
-                                                                                <div style="position: absolute; top: 0; left: 50%; transform: translateX(-50%); width: 80%; height: 5px; background-color: #ddd; overflow: hidden; border-radius: 5px;">
-                                                                                    <div style="height: 100%; width: 30%; background-color: #6c63ff; animation: loading 2s linear infinite;"></div>
-                                                                                </div>
-
-                                                                            </div>
-
-                                                                            <style>
-                                                                                @keyframes blink {
-                                                                                    0% { opacity: 1; }
-                                                                                    50% { opacity: 0.3; }
-                                                                                    100% { opacity: 1; }
-                                                                                }
-
-                                                                                @keyframes loading {
-                                                                                    0% { transform: translateX(-100%); }
-                                                                                    100% { transform: translateX(100%); }
-                                                                                }
-                                                                            </style>
-
-                                                                        </div>
+                                                                           <div style="font-size: 24px; font-weight: bold; color: #555; text-transform: uppercase; position: relative; animation: blink 1.5s infinite;">
+      PDF Justification letter 
+    </div>
+    
+    <div style="font-size: 16px; color: #888; margin-top: 10px;">
+      Please check back later for updates!
+    </div>
+    
+    <!-- PDF Viewer Section -->
+    <div style="margin-top: 20px; position: relative;">
+      <!-- Embed PDF from Google Drive using iframe -->
+      <iframe src="https://drive.google.com/file/d/1Vg29b6491P2CNENNljA5q03xt4jxFgyG/preview" style="width: 60%; height: 500px; border: none;"></iframe>
+    </div>
+    
+    <!-- Download Button -->
+    <div style="margin-top: 20px;">
+      <a href="https://drive.google.com/uc?export=download&id=1Vg29b6491P2CNENNljA5q03xt4jxFgyG" download="filename.pdf" style="text-decoration: none; padding: 10px 20px; background-color: #6c63ff; color: white; border-radius: 5px; font-weight: bold;">
+        Download PDF
+      </a>
+    </div>
+  
+    <!-- Inline Keyframes for Animation -->
+    <div style="display: none;">
+      <style>
+        @keyframes blink {
+          0% { opacity: 1; }
+          50% { opacity: 0.3; }
+          100% { opacity: 1; }
+        }
+      </style>
+    </div>
+</div>
 
                                                                     </div>
                                                                 </div>
